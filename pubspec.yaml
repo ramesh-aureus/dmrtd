@@ -14,7 +14,11 @@ dependencies:
   crypto: ^3.0.1
   expandable: ^5.0.1
   fixnum: ^1.0.0
-  flutter_nfc_kit: ^3.4.2
+  flutter_nfc_kit:
+    git:
+      url: https://github.com/ramesh-aureus/flutter_nfc_kit.git
+      ref: master # or specify any branch/commit you want
+
   logging: ^1.0.1
   meta: ^1.3.0
   tripledes_nullsafety: ^1.0.3
